@@ -1,4 +1,12 @@
-const sentence = prompt("Enter a sentence");
+// $(document).ready(function() {
+ 
+  // $("img").click(function() { 
+  //   $("#output").append(sentence)
+  // });
+
+  const sentence = prompt("Enter a sentence");
+
+
 
 function reverseFirstAndLast(sentence) {
   const step1 = firstAndLast(sentence);
@@ -28,17 +36,9 @@ function divide(result2) {
   return parseInt(strLength/2);
 }
 
-reverseFirstAndLast(sentence);
+//alert(sentence)
 
-// console.log(reverse(result1));
-
-// function firstAndLast(sentence) {
-//   return sentence.charAt(0) + sentence.charAt(sentence.length-1);
-// }
-// const result1 = firstAndLast(sentence).toUpperCase();
-
-// function reverse(result1) {
-//   return result1.charAt(1) + result1.charAt(0);
-// }
-// console.log(reverse(result1));
+ alert(reverseFirstAndLast(sentence));
+ 
+//});
 
