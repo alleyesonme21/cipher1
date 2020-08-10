@@ -7,6 +7,10 @@ function reverseFirstAndLast(sentence) {
   const step3 = reverse(step2);
   console.log(step3);
   console.log(sentence + step3);
+  const step4 = divide(sentence);
+  console.log(sentence.charAt(step4));
+  const final = sentence.charAt(step4) + sentence + step3;
+  console.log(final);
 }
 
 function firstAndLast(sentence) {
@@ -17,6 +21,11 @@ const result1 = firstAndLast(sentence).toUpperCase();
 
 function reverse(result1) {
 return result1.charAt(1) + result1.charAt(0);
+}
+
+function divide(result2) {
+  const strLength = result2.length;
+  return parseInt(strLength/2);
 }
 
 reverseFirstAndLast(sentence);
