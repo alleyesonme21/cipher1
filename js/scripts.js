@@ -1,12 +1,6 @@
-// $(document).ready(function() {
- 
-  // $("img").click(function() { 
-  //   $("#output").append(sentence)
-  // });
+
 
   const sentence = prompt("Enter a sentence");
-
-
 
 function reverseFirstAndLast(sentence) {
   const step1 = firstAndLast(sentence);
@@ -36,9 +30,7 @@ function divide(result2) {
   return parseInt(strLength/2);
 }
 
-//alert(sentence)
-
  alert(reverseFirstAndLast(sentence));
- 
-//});
+
+
 
